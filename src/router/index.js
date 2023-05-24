@@ -191,6 +191,38 @@ const routes = [
       import(
         /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/5_advanced/CustomDirectiveView.vue'
       )
+  },
+  {
+    path: '/advanced/mixin',
+    name: 'MixinView',
+    component: () =>
+      import(
+        /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/5_advanced/MixinView.vue'
+      )
+  },
+  {
+    path: '/advanced/plugin',
+    name: 'PlunginView',
+    component: () =>
+      import(
+        /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/5_advanced/PlunginView.vue'
+      )
+  },
+  {
+    path: '/vuex/todo',
+    name: 'TodoView',
+    component: () =>
+      import(
+        /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/6_vuex/TodoView.vue'
+      )
+  },
+  {
+    path: '/vuex/login',
+    name: 'LoginView',
+    component: () =>
+      import(
+        /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/6_vuex/LoginView.vue'
+      )
   }
 ]
 
