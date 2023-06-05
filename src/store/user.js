@@ -21,6 +21,13 @@ export const user = {
       } else {
         return false
       }
+    },
+    isKakaoLogin() {
+      if (!window.Kakao.Auth.getAccessToken()) {
+        return false
+      } else {
+        return true
+      }
     }
   },
   // 상태(state)를 변경시킬 수 있는 유일한 방법(함수)

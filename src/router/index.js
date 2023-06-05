@@ -223,6 +223,134 @@ const routes = [
       import(
         /* webpackChunkName: "reuse", webpackPrefetch:true */ '../views/6_vuex/LoginView.vue'
       )
+  },
+  {
+    path: '/composition/setup',
+    name: 'SetupView',
+    component: () =>
+      import(
+        /* webpackChunkName: "composition", webpackPrefetch:true */ '../views/7_composition/SetupView.vue'
+      )
+  },
+  {
+    path: '/composition/ref',
+    name: 'RefView',
+    component: () =>
+      import(
+        /* webpackChunkName: "composition", webpackPrefetch:true */ '../views/7_composition/RefView.vue'
+      )
+  },
+  {
+    path: '/composition/ref',
+    name: 'RefView',
+    component: () =>
+      import(
+        /* webpackChunkName: "composition", webpackPrefetch:true */ '../views/7_composition/RefView.vue'
+      )
+  },
+  {
+    path: '/composition/func',
+    name: 'FuncView',
+    component: () =>
+      import(
+        /* webpackChunkName: "composition", webpackPrefetch:true */ '../views/7_composition/FuncView.vue'
+      )
+  },
+  {
+    path: '/login/kakao',
+    name: 'KakaoLoginView',
+    component: () =>
+      import(
+        /* webpackChunkName: "login", webpackPrefetch:true */ '../views/8_login/KakaoLoginView.vue'
+      )
+  },
+  {
+    path: '/login/main',
+    name: 'MainView',
+    component: () =>
+      import(
+        /* webpackChunkName: "login", webpackPrefetch:true */ '../views/8_login/MainView.vue'
+      )
+  },
+  {
+    path: '/login/naver',
+    name: 'NaverLoginView',
+    component: () =>
+      import(
+        /* webpackChunkName: "login", webpackPrefetch:true */ '../views/8_login/NaverLoginView.vue'
+      )
+  },
+  {
+    path: '/module/map',
+    name: 'KakaoMapView',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/KakaoMapView.vue'
+      )
+  },
+  {
+    path: '/module/font',
+    name: 'FontawesomeView',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/FontawesomeView.vue'
+      )
+  },
+  {
+    path: '/module/calendar',
+    name: 'FullCalendarView',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/FullCalendarView.vue'
+      )
+  },
+  {
+    path: '/module/sweetAlert2',
+    name: 'SweetAlert2View',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/SweetAlert2View.vue'
+      )
+  },
+  {
+    path: '/module/loading',
+    name: 'LoadingOverlayView',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/LoadingOverlayView.vue'
+      )
+  },
+  {
+    path: '/module/table',
+    name: 'VueGoodTableView',
+    component: () =>
+      import(
+        /* webpackChunkName: "module", webpackPrefetch:true */ '../views/9_module/VueGoodTableView.vue'
+      )
+  },
+  {
+    path: '/chart/bar',
+    name: 'BarChartView',
+    component: () =>
+      import(
+        /* webpackChunkName: "chart", webpackPrefetch:true */ '../views/10_chart/BarChartView.vue'
+      )
+  },
+  {
+    path: '/chart/line',
+    name: 'LineChartView',
+    component: () =>
+      import(
+        /* webpackChunkName: "chart", webpackPrefetch:true */ '../views/10_chart/LineChartView.vue'
+      )
+  },
+  {
+    path: '/chart/donut',
+    name: 'DonutChartView',
+    component: () =>
+      import(
+        /* webpackChunkName: "chart", webpackPrefetch:true */ '../views/10_chart/DonutChartView.vue'
+      )
   }
 ]
 
